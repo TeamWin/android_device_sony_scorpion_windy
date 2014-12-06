@@ -15,14 +15,14 @@
 # inherit from the common shinano definitions
 include device/sony/shinano-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/castor_windy/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/scorpion_windy/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/castor_windy/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/scorpion_windy/bluetooth
 
-BOARD_HARDWARE_CLASS += device/sony/castor_windy/cmhw
+BOARD_HARDWARE_CLASS += device/sony/scorpion_windy/cmhw
 
 # For two-stage boot configuration
-TARGET_RECOVERY_DEVICE_DIRS := device/sony/castor_windy
+TARGET_RECOVERY_DEVICE_DIRS := device/sony/scorpion_windy
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26

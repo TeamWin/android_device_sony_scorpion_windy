@@ -1,2 +1,2 @@
-android_device_sony_castor_windy
+android_device_sony_scorpion_windy
 ================================

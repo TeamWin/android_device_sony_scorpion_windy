@@ -16,21 +16,21 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=wifi-only
 
-# Common castor Resources
-$(call inherit-product, device/sony/castor_windy/full_castor-common.mk)
+# Common scorpion Resources
+$(call inherit-product, device/sony/scorpion_windy/full_scorpion-common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
-     device/sony/castor_windy/overlay
+     device/sony/scorpion_windy/overlay
 
 #Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from castor device
-$(call inherit-product, device/sony/castor_windy/castor_windy.mk)
+# Inherit from scorpion device
+$(call inherit-product, device/sony/scorpion_windy/scorpion_windy.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_castor_windy
-PRODUCT_DEVICE := castor_windy
+PRODUCT_NAME := full_scorpion_windy
+PRODUCT_DEVICE := scorpion_windy
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia Z2 Tablet Wifi
+PRODUCT_MODEL := Xperia Z3 Tablet Compact Wifi

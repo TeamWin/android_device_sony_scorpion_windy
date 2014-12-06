@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from the common castor definitions
-include device/sony/castor_windy/BoardConfigCommon.mk
+# inherit from the common scorpion definitions
+include device/sony/scorpion_windy/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := SGP511,SGP512,castor_windy
+TARGET_OTA_ASSERT_DEVICE := SGP611,SGP612,scorpion_windy
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_shinano_castor_windy_defconfig
+TARGET_KERNEL_CONFIG := cm_shinano_scorpion_windy_defconfig

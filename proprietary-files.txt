@@ -22,19 +22,12 @@ etc/firmware/adsp.b12
 etc/firmware/adsp.mdt
 
 # Camera
-lib/libcald_hal.so
 vendor/camera/flash.dat
-vendor/camera/LGI02BN1_CACAO.dat
-vendor/camera/LGI02BN1.dat
 vendor/camera/LGI02BN1_IMX132.dat
 vendor/camera/product_CACAO.dat
 vendor/camera/product.dat
-vendor/camera/SEM02BN1_CACAO.dat
-vendor/camera/SEM02BN1.dat
 vendor/camera/SEM02BN1_IMX132.dat
 vendor/camera/SOI08BS2_BU64291GWZ.dat
-vendor/camera/SOI08BS2_CACAO.dat
-vendor/camera/SOI08BS2.dat
 vendor/camera/SOI08BS2_IMX134.dat
 vendor/lib/libmmcamera2_iface_modules.so
 vendor/lib/libmmcamera2_imglib_modules.so
@@ -53,10 +46,11 @@ etc/firmware/modem.b00
 etc/firmware/modem.b01
 etc/firmware/modem.b02
 etc/firmware/modem.b03
-etc/firmware/modem.b05
+etc/firmware/modem.b06
 etc/firmware/modem.b08
-etc/firmware/modem.b10
+etc/firmware/modem.b09
 etc/firmware/modem.b11
+etc/firmware/modem.b12
 etc/firmware/modem.b13
 etc/firmware/modem.b14
 etc/firmware/modem.b15
@@ -64,12 +58,10 @@ etc/firmware/modem.b16
 etc/firmware/modem.b17
 etc/firmware/modem.b18
 etc/firmware/modem.b19
-etc/firmware/modem.b20
-etc/firmware/modem.b21
 etc/firmware/modem.b22
+etc/firmware/modem.b23
+etc/firmware/modem.b24
 etc/firmware/modem.b25
-etc/firmware/modem.b26
-etc/firmware/modem.b27
 etc/firmware/modem.mdt
 
 # NFC
@@ -119,8 +111,16 @@ etc/tfa98xx/VoiceCallSpeaker_top.eq
 etc/tfa98xx/VoiceCallSpeaker_top.preset
 
 # TouchScreen
-etc/firmware/touch_module_id_0x60.img
-etc/firmware/touch_module_id_0x61.img
+etc/firmware/touch_module_id_0x97.img
+etc/firmware/touch_module_id_0x98.img
+etc/firmware/touch_module_id_0x99.img
+etc/firmware/touch_module_id_0x9a.img
+etc/firmware/touch_module_id_0xa4.img
+etc/firmware/touch_module_id_0xa5.img
+etc/firmware/touch_module_id_0xa6.img
+etc/firmware/touch_module_id_0xa7.img
+etc/firmware/touch_module_id_0xa8.img
+etc/firmware/touch_module_id_0xa9.img
 usr/idc/clearpad.idc
 
 # WiFi firmware

@@ -17,8 +17,6 @@ include device/sony/shinano-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/scorpion_windy/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/scorpion_windy/bluetooth
-
 BOARD_HARDWARE_CLASS += device/sony/scorpion_windy/cmhw
 
 # For two-stage boot configuration
